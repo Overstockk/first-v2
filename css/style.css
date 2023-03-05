@@ -489,6 +489,51 @@ body {
     padding: 270px 0px 270px 0px;
 }
 
+@media (max-width: 1023.98px) {
+    .first {
+        padding: 200px 0px 50px 0px;
+    }
+
+    .second {
+        padding: 100px 0px 50px 0px;
+    }
+
+    .services {
+        padding: 100px 0px 50px 0px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .first {
+        padding: 200px 0px 50px 0px;
+    }
+
+    .second {
+        padding: 100px 0px 50px 0px;
+    }
+
+    .services {
+        padding: 100px 0px 50px 0px;
+    }
+}
+
+@media (max-width: 479.98px) {
+    .first {
+        background: #a87e65;
+        padding: 200px 0px 0px 0px;
+    }
+
+    .second {
+        background: #c4ad8c;
+        padding: 100px 0px 0px 0px;
+    }
+
+    .services {
+        background: #88b8ff;
+        padding: 100px 0px 0px 0px;
+    }
+}
+
 .second__container {
     display: flex;
     flex-direction: column;
@@ -548,7 +593,6 @@ body {
 .item-second__text:not(:last-child) {
     margin: 0px 0px 20px 0px;
 }
-
 
 /* приклад */
 
